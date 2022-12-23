@@ -11,7 +11,7 @@ public class mover : MonoBehaviour
     //bool isAlive = true;
     //string name = "Leyroy";
 
-    [SerializeField] float moveSpeed = 15f;
+    [SerializeField] float moveSpeed = 20f;
 
     // Start is called before the first frame update
     void Start() {
