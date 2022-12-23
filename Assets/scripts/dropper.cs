@@ -22,7 +22,9 @@ public class dropper : MonoBehaviour
     void Update()
     {
         if (Time.time > delay) {
-            Debug.Log("3 Seconds Has Elapsed");
+            //Debug.Log("3 Seconds Has Elapsed");
+            renderer.enabled = true;
+            rigidBody.useGravity = true;
         }
         
     }
