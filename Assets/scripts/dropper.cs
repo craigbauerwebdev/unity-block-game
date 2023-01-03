@@ -7,7 +7,7 @@ public class dropper : MonoBehaviour
     MeshRenderer renderer;
     Rigidbody rigidBody;
 
-    [SerializeField] float delay = 5f;
+    [SerializeField] float delay = 3f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +21,7 @@ public class dropper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug.Log(Time.time);
         if (Time.time > delay) {
             //Debug.Log("3 Seconds Has Elapsed");
             renderer.enabled = true;
